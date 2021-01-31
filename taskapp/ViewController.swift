@@ -32,7 +32,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
             searchBar.placeholder = "カテゴリーを入力してください"
             searchBar.showsCancelButton = true
             tableView.reloadData()
-            
+            print(hyouji)
     }
  
     // データの数（＝セルの数）を返すメソッド
